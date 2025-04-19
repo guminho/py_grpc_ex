@@ -2,19 +2,18 @@
 
 ## Setup
 ```bash
-python3 -m venv venv
-. venv/bin/activate
+python3 -m venv .venv
+. .venv/bin/activate
 pip install grpcio-tools
 ```
 
 ## Usage
 ```bash
-cd hello
 bash genproto.sh
 
 # server
-python srv.py
+python bserver.py
 
 # client
-python cli.py
+python bclient.py
 ```

@@ -1,4 +1,0 @@
-services:
-  rpc:
-    build: .
-    network_mode: host
